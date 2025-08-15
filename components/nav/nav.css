@@ -1,0 +1,22 @@
+ul li a {
+  transition: all 0.4s ease-in-out !important;
+  padding: 10px !important;
+  color: #fff !important;
+}
+
+/* a:hover {
+  color: #fff !important;
+  background-color: #159eec !important;
+  border-radius: 15px;
+  transform: scale(1.05);
+} */
+
+/* .active {
+  background-color: #159eec !important;
+  border-radius: 15px;
+  transform: scale(1.05);
+} */
+.active {
+  color: #bfd2f8 !important;
+  font-weight: 700 !important;
+}

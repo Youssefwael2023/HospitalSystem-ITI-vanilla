@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.About-head {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.FImg {
+  display: block;
+  width: 100%;
+}
+.SImg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+.TImg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+.Topic {
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.Topic p {
+  margin: 0;
+}
+/* .icon-quote {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 24px;
+  color: #fff;
+} */
+.cont {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.cont p {
+  overflow-y: auto;
+  max-height: 300px;
+  font-family: "Work Sans";
+  font-size: 22px;
+  font-weight: 400;
+  color: #fcfefe;
+}
+.cont h3 {
+  font-family: "Work Sans";
+  font-size: 22px;
+  font-weight: 400;
+  color: #fcfefe;
+}
+.slide > p::after {
+  content: "";
+  display: block;
+  width: 50%;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  margin: 8px auto;
+}
+.dots {
+  position: absolute;
+  bottom: 50px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  width: 100%;
+}
+.dot {
+  width: 20px;
+  height: 20px;
+  background-color: #fcfefe;
+  border-radius: 50%;
+}
+.dot.active {
+  background-color: #bfd2f8;
+}
+.dot-2 {
+  width: 20px;
+  height: 20px;
+  background-color: #bfd2f8;
+  border-radius: 50%;
+}
+.dot-2.active {
+  background-color: #1f2b6c;
+}
+.slide {
+  display: none;
+}
+.slide.active {
+  display: block;
+}
+.slidee {
+  display: none;
+}
+.slidee.active {
+  display: block;
+}
+.card-item {
+  display: none;
+}
+
+.card-item.active {
+  display: block;
+}
+.contact {
+  transition: all 0.5s ease-in-out !important;
+}
+
+.contact:hover {
+  background-color: #1f2b6c;
+  /* transform: scale(1.05); */
+}
+
+.contact:hover p {
+  color: white;
+  transition: all 0.5s ease-in-out !important;
+}
+
+.contact:hover h2 {
+  color: white;
+  transition: all 0.5s ease-in-out !important;
+}
+
+.contactt .activee {
+  background-color: #1f2b6c !important;
+  color: white;
+}
+@media (max-width: 1024px) {
+  .Topic {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .Topic p {
+    font-family: "Work Sans";
+    font-size: 10px;
+    font-weight: 400;
+  }
+  .Topic h1 {
+    font-family: "Yeseva One";
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  /* .body-2 {
+  font-family: "Work Sans";
+  font-size: 18px;
+  font-weight: 400;
+}
+.display-1 {
+  font-family: "Yeseva One";
+  font-size: 48px;
+  font-weight: 400;
+} */
+}

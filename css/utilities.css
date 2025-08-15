@@ -1,0 +1,90 @@
+.display-1 {
+  font-family: "Yeseva One";
+  font-size: 48px;
+  font-weight: 400;
+}
+.display-2 {
+  font-family: "Yeseva One";
+  font-size: 32px;
+  font-weight: 400;
+}
+.display-3 {
+  font-family: "Yesea One";
+  font-size: 36px;
+  font-weight: 400;
+}
+.title {
+  font-family: "Work Sans";
+  font-size: 26px;
+  font-weight: 500;
+}
+.caption {
+  font-family: "Work Sans";
+  font-size: 18px;
+  font-weight: 700;
+}
+.body {
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-weight: 400;
+}
+.body-2 {
+  font-family: "Work Sans";
+  font-size: 18px;
+  font-weight: 400;
+}
+/* .body-3 {
+  font-family: "Work Sans";
+  font-size: 24px;
+  font-weight: 400;
+} */
+.button-text {
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.text-small {
+  font-family: "Work Sans";
+  font-size: 14px;
+  font-weight: 400;
+}
+.fcBlack {
+  color: #212124;
+}
+.fcWhite {
+  color: #fcfefe;
+}
+.fcPrimary {
+  color: #1f2b6c;
+}
+.fcAccent {
+  color: #bfd2f8;
+}
+.fcSecondary {
+  color: #159eec;
+}
+.bgBlack {
+  background-color: #212124;
+}
+.bgPrimary {
+  background-color: #1f2b6c;
+}
+.bgAccent {
+  background-color: #bfd2f8;
+}
+.bgSecondary {
+  background-color: #159eec;
+}
+.bgWhite {
+  background-color: #fcfefe;
+}
+.linkWhite {
+  color: #fcfefe !important;
+}
+/* //////////////// */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

@@ -1,0 +1,92 @@
+@media screen and (min-width: 1024px) {
+  .display-1-lp {
+    font-family: "Yeseva One";
+    font-size: 48px;
+    font-weight: 400;
+  }
+  .display-2-lp {
+    font-family: "Yeseva One";
+    font-size: 32px;
+    font-weight: 400;
+  }
+  .display-3-lp {
+    font-family: "Yesea One";
+    font-size: 36px;
+    font-weight: 400;
+  }
+  .title-lp {
+    font-family: "Work Sans";
+    font-size: 26px;
+    font-weight: 500;
+  }
+  .caption-lp {
+    font-family: "Work Sans";
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .body-lp {
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .body-2-lp {
+    font-family: "Work Sans";
+    font-size: 18px;
+    font-weight: 400;
+  }
+  /* .body-3-lp {
+  font-family: "Work Sans";
+  font-size: 24px;
+  font-weight: 400;
+} */
+  .button-text-lp {
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  .text-small-lp {
+    font-family: "Work Sans";
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .fcBlack-lp {
+    color: #212124;
+  }
+  .fcWhite-lp {
+    color: #fcfefe;
+  }
+  .fcPrimary-lp {
+    color: #1f2b6c;
+  }
+  .fcAccent-lp {
+    color: #bfd2f8;
+  }
+  .fcSecondary-lp {
+    color: #159eec;
+  }
+  .bgBlack-lp {
+    background-color: #212124;
+  }
+  .bgPrimary-lp {
+    background-color: #1f2b6c;
+  }
+  .bgAccent-lp {
+    background-color: #bfd2f8;
+  }
+  .bgSecondary-lp {
+    background-color: #159eec;
+  }
+  .bgWhite-lp {
+    background-color: #fcfefe;
+  }
+  .linkWhite-lp {
+    color: #fcfefe !important;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}

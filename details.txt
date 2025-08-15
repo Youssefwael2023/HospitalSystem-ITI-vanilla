@@ -1,0 +1,84 @@
+# Hospital Frontend Project
+
+## Overview
+
+This is a responsive hospital website built using HTML, CSS, Bootstrap, and JavaScript. It provides information about the hospital, its services, doctors, and allows users to book appointments online. The project is organized into modular folders for easy maintenance and scalability.
+
+## Features
+
+- **Home Page:**
+  - Welcome section
+  - Services overview
+  - Specialties
+  - Appointment booking form
+  - Doctor carousel (shows 3 doctors at a time, slides to show more)
+  - News section
+  - Contact info
+  - Footer
+- **About Us Page:**
+  - Information about the hospital
+  - Team and mission
+- **Services Page:**
+  - List of medical services offered
+- **Doctors Page:**
+  - Profiles of medical staff
+- **Contact Page:**
+  - Contact form and details
+- **Login/Signup:**
+  - Simple authentication forms
+
+## Technologies Used
+
+- HTML
+- CSS
+- Bootstrap
+- JavaScript
+- Font Awesome (icons)
+- Google fonts
+- fake api
+
+## Folder Structure
+
+```
+components/
+  footer/
+  nav/
+css/
+pages/
+  About/
+  appoinment/
+  contact/
+  doctors/
+  home/
+  login/
+  services/
+  Signup/
+```
+
+- Each page folder contains its own HTML, CSS, JS, and images.
+- Shared components (nav, footer) are in the `components` folder.
+- Global styles are in the `css` folder.
+
+## How It Works
+
+- **Appointment Form:**
+
+  - First you should be loggedin to make an appoinment
+  - Collects user info and stores it in localStorage.
+  - Selects doctor and department dynamically from api not hardcoded.
+
+## Setup & Usage
+
+1. Clone or download the project folder.
+2. Open `pages/home/index.html` in your browser to view the home page.
+3. Navigate to other pages using the navbar.
+
+## Credits
+
+- Bootstrap: https://getbootstrap.com/
+- Font Awesome: https://fontawesome.com/
+- Google Fonts: https://fonts.google.com/
+
+## License
+
+This project is for educational purposes and can be freely modified and used.

@@ -1,0 +1,89 @@
+.home-main {
+  background-image: url("img/1.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+  height: 100vh;
+}
+
+.services .box {
+  transform: all 0.5s ease-in-out !important;
+}
+
+.services .box:hover {
+  background-color: #1f2b6c;
+  color: #159eec;
+}
+
+.services li {
+  list-style: disc;
+  list-style-position: inside;
+
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-weight: 500;
+
+}
+
+
+.specialBoxes {
+  transition: all 0.5s ease-in-out !important;
+}
+
+.specialBoxes:hover {
+  background-color: #1f2b6c;
+  transform: scale(1.05);
+}
+
+.specialBoxes:hover p {
+  color: white;
+  transition: all 0.5s ease-in-out !important;
+}
+
+.specialties .active {
+  background-color: #1f2b6c !important;
+  transform: scale(1.05) !important;
+}
+
+.appointments {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+    url("img/1.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+input::placeholder {
+  color: #d2d9e6 !important;
+  padding: 10px;
+}
+
+textarea::placeholder {
+  color: #d2d9e6 !important;
+  padding: 10px;
+}
+
+.contact {
+  transition: all 0.5s ease-in-out !important;
+}
+
+.contact:hover {
+  background-color: #1f2b6c;
+  /* transform: scale(1.05); */
+}
+
+.contact:hover p {
+  color: white;
+  transition: all 0.5s ease-in-out !important;
+}
+
+.contact:hover h2 {
+  color: white;
+  transition: all 0.5s ease-in-out !important;
+}
+
+.contactt .activee {
+  background-color: #1f2b6c !important;
+  color: white;
+}
